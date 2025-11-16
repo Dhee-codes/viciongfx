@@ -92,8 +92,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 5rem 0 0;
+    overflow: hidden;
 }
-
 
 .home > div {
     width: 70rem;
@@ -124,8 +124,11 @@ header {
     margin-top: 4.5rem;
 }
 
-.aesthetics .aesbutton {
+.aesthetics .aesbutton, .aesimage {
     position: absolute;
+}
+
+.aesthetics .aesbutton {
     color: var(--primary);
     width: 19.6rem;
     height: 4.6rem;
@@ -157,14 +160,32 @@ header {
 }
 
 .button4 {
-    top: 60.5rem;
+    bottom: 1.5rem;
     left: 48.6rem;
     transform: rotate(-17.98deg);
+}
+
+.aesimage1 {
+    width: 18.82rem;
+    height: 26.82rem;
+    top: 3rem;
+    left: 0;
+}
+
+.aesimage2 {
+    width: 48.66rem;
+    height: 49.5rem;
+    bottom: -28.8rem;
+    left: 77.3rem;
 }
 
 .about {
     color: #061602;
     background-color: #ffffff;
+}
+
+.gfx-aes {
+    overflow: hidden;
 }
 
 .gfx {
@@ -182,7 +203,6 @@ header {
     line-height: 0.8;
     padding-top: 28px;
     transform: translate(-20%);
-    overflow: hidden;
 }
 
 .about-content {
