@@ -132,8 +132,39 @@ header {
     margin-top: 4.5rem;
 }
 
-.aesthetics .aesbutton, .aesimage {
+.aesthetics .aesbutton, .aesthetics .aesspot, .aesimage {
     position: absolute;
+}
+
+.aesthetics .aesspot {
+    width: 4px;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.spot1 {
+    top: 14rem;
+    left: 38.2rem;
+}
+
+.spot2 {
+    top: 17rem;
+    left: 89.2rem;
+}
+
+.spot3{
+    bottom: 20em;
+    left: 43.2rem;
+}
+
+.spot4 {
+    bottom: 21em;
+    left: 87rem;
+}
+
+.spot5 {
+    bottom: 12em;
+    left: 70rem;
 }
 
 .aesthetics .aesbutton {
