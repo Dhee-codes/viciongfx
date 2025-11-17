@@ -122,14 +122,17 @@ header {
     font-size: 1.6rem;
 }
 
+.home .book-a-call {
+    background-color: var(--primary);
+    margin-top: 4.5rem;
+}
+
 .book-a-call {
     display: inline-block;
     width: 17.8rem;
     height: 4rem;
-    background-color: var(--primary);
     border: none;
     border-radius: 100px;
-    margin-top: 4.5rem;
 }
 
 .aesthetics .aesbutton, .aesthetics .aesspot, .aesimage {
@@ -219,6 +222,7 @@ header {
 }
 
 .about {
+    position: relative;
     color: #061602;
     background-color: #ffffff;
 }
@@ -249,12 +253,46 @@ header {
 }
 
 .about-content {
-    width: 80%;
     display: flex;
     gap: 4.4rem;
-    margin: auto;
+    padding-right: 1.4rem;
+    margin-left: 12rem;
+    margin-top: -12px;
+}
+
+.about-heading {
+    z-index: 2;
 }
 
 .about-para {
-    margin-left: 7rem;
+    line-height: 1.6;
+    padding-top: 4rem;
+    margin-left: 5.2rem;
+}
+
+.about .book-a-call {
+    background-color: var(--secondary);
+    color: #ffffff;
+    margin-top: 2.5rem;
+}
+
+.about .aesimage {
+    position: absolute;
+}
+
+.aesimage3 {
+    width: 20.4rem;
+    height: 40rem;
+    top: 5rem;
+    left: -7rem;
+}
+
+.aesimage4 {
+    top: 9rem;
+    left: -1rem;
+}
+
+.aesimage5 {
+    top: 18rem;
+    left: -1rem;
 }
