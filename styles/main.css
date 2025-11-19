@@ -140,8 +140,8 @@ header {
 }
 
 .aesthetics .aesspot {
-    width: 4px;
-    height: 4px;
+    width: 2px;
+    height: 2px;
     background-color: #ffffff;
 }
 
@@ -152,7 +152,7 @@ header {
 
 .spot2 {
     top: 17rem;
-    left: 89.2rem;
+    right: 48.2rem;
 }
 
 .spot3{
@@ -162,12 +162,17 @@ header {
 
 .spot4 {
     bottom: 21em;
-    left: 87rem;
+    right: 50.2rem;
 }
 
 .spot5 {
     bottom: 12em;
     left: 70rem;
+}
+
+.spot6 {
+    bottom: 4rem;
+    left: 20rem;
 }
 
 .aesthetics .aesbutton {
@@ -191,7 +196,7 @@ header {
 
 .button2 {
     top: 43.2rem;
-    left: 110.6rem;
+    right: 8.6rem;
     transform: rotate(26.47deg);
 }
 
@@ -218,7 +223,7 @@ header {
     width: 48.66rem;
     height: 49.5rem;
     bottom: -23.8rem;
-    left: 77.3rem;
+    right: 14.3rem;
 }
 
 .about {
@@ -258,6 +263,7 @@ header {
     padding-right: 1.4rem;
     margin-left: 12rem;
     margin-top: -12px;
+    margin-bottom: 15rem;
 }
 
 .about-heading {
@@ -270,8 +276,11 @@ header {
     margin-left: 5.2rem;
 }
 
-.about .book-a-call {
+.about .book-a-call, .testimonials .book-a-call {
     background-color: var(--secondary);
+}
+
+.about .book-a-call {
     color: #ffffff;
     margin-top: 2.5rem;
 }
@@ -281,8 +290,8 @@ header {
 }
 
 .aesimage3 {
-    width: 20.4rem;
-    height: 40rem;
+    width: 18.4rem;
+    height: 42rem;
     top: 5rem;
     left: -7rem;
 }
@@ -293,6 +302,55 @@ header {
 }
 
 .aesimage5 {
-    top: 18rem;
-    left: -1rem;
+    top: 20rem;
+    left: 0rem;
+}
+
+.services {
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.gfx-marque {
+    width: 145%;
+    height: 11rem;
+    color: #ffffff;
+    font-size: 3.9rem;
+    font-weight: 100;
+    font-family: "Morgant", Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translate(-10.5%);
+}
+
+.gfx-bg-image {
+    width: 100%;
+    height: auto;
+}
+
+.testimonials {
+    color: #ffffff;
+    background: linear-gradient(#000000, #061602);
+}
+
+.testimonials > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12rem;
+}
+
+.testimonials-intro {
+    font-size: 4.2rem;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+.testimonial-cards {
+    width: 102rem;
+    height: 104rem;
+    background-color: #fff;
+    margin: 8rem 0 5rem;
 }
