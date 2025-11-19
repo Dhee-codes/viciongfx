@@ -122,8 +122,11 @@ header {
     font-size: 1.6rem;
 }
 
-.home .book-a-call {
+.home .book-a-call, .testimonials .book-a-call {
     background-color: var(--primary);
+}
+
+.home .book-a-call {
     margin-top: 4.5rem;
 }
 
@@ -276,7 +279,7 @@ header {
     margin-left: 5.2rem;
 }
 
-.about .book-a-call, .testimonials .book-a-call {
+.about .book-a-call {
     background-color: var(--secondary);
 }
 
@@ -332,6 +335,7 @@ header {
 .testimonials {
     color: #ffffff;
     background: linear-gradient(#000000, #061602);
+    font-family: "Aeonik TRIAL", sans-serif;
 }
 
 .testimonials > div {
@@ -340,6 +344,7 @@ header {
     justify-content: center;
     align-items: center;
     padding-top: 12rem;
+    padding-bottom: 4rem;
 }
 
 .testimonials-intro {
@@ -351,6 +356,58 @@ header {
 .testimonial-cards {
     width: 102rem;
     height: 104rem;
-    background-color: #fff;
+    border-radius: 0.6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.6rem;
     margin: 8rem 0 5rem;
+}
+
+.cards-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testimonial-cards .card {
+    color: #000000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    padding: 2rem;
+}
+
+.rating {
+    margin-bottom: 2.2rem;
+}
+
+.para {
+    font-size: 1.9rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2.6rem;
+    min-height: 12rem;
+}
+
+.profile {
+    display: flex;
+    gap: 10px;
+}
+
+.profile img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.profile .name {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.4;
+}
+
+.profile .date {
+    font-size: 1.2rem;
+    font-weight: lighter;
 }
