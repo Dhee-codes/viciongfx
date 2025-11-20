@@ -411,3 +411,92 @@ header {
     font-size: 1.2rem;
     font-weight: lighter;
 }
+
+.portfolio {
+    background: linear-gradient(135deg, #31e685 0, #31e685 30%, #00652f 100%);
+    font-size: 6.2rem;
+    font-family: "Morgant", Arial, sans-serif;
+}
+
+.portfolio > div {
+    padding: 14rem 1.2rem 10.6rem;
+}
+
+.portfolio .gfx-aesservices {
+    margin-bottom: 5rem;
+}
+
+.portfolio .gfx-aesservices > div {
+    display: inline-block;
+}
+
+.gfx-oval {
+    height: 9.2rem;
+    border-radius: 9999rem;
+    display: flex;
+    align-items: center;
+    transform: translateY(1.5rem);
+}
+
+.gfx-circle {
+    background-color: #5DFD3F;
+    width: 7.7rem;
+    height: 7.7rem;
+    border-radius: 50%;
+}
+
+.portfolio .gfx-service1 {
+    color: #F5F5F5;
+}
+
+.gfx-oval1 {
+    width: 22.2rem;
+    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage1.png');
+    justify-content: right;
+}
+
+.gfx-circle1 {
+    transform: translate(-0.6rem);
+}
+
+.portfolio .gfx-service2 {
+    color: #1B804A;
+}
+
+.gfx-oval2 {
+    width: 26.5rem;
+    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage2.png');
+    justify-content: left;
+}
+
+.gfx-circle2 {
+    transform: translate(0.6rem);
+}
+
+.portfolio .gfx-service3 {
+    color: #000000;
+}
+
+.gfx-oval3 {
+    width: 50.7rem;
+    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage3.png');
+    justify-content: right;
+}
+
+.gfx-circle3 {
+    transform: translate(-0.6rem);
+}
+
+.portfolio .gfx-service4 {
+    color: #F5F5F5;
+}
+
+.gfx-oval4 {
+    width: 60.4rem;
+    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage4.png');
+    justify-content: left;
+}
+
+.gfx-circle4 {
+    transform: translate(0.6rem);
+}
