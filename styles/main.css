@@ -500,3 +500,18 @@ header {
 .gfx-circle4 {
     transform: translate(0.6rem);
 }
+
+.contact > div {
+    display: flex;
+}
+
+.contact-details {
+    width: 70%;
+    background-color: #Ffffff;
+}
+
+.contact-form {
+    width: 30%;
+    height: 40rem;
+    background-color: #31e685;
+}
