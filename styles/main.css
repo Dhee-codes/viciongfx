@@ -515,3 +515,19 @@ header {
     height: 40rem;
     background-color: #31e685;
 }
+
+.contact h2 {
+    font-size: 5.2rem;
+}
+
+.contact .gfx-contact-text, .contact .gfx-contact-link {
+    font-family: "Morgant", Arial, sans-serif;
+}
+
+.contact .gfx-contact-text {
+    font-size: 4.1rem;
+}
+
+.contact .gfx-contact-link {
+    font-size: 2.7rem;
+}
