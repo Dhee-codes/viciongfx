@@ -519,7 +519,7 @@ header {
 
 .contact > div > div:nth-child(2) {
     width: 20%;
-    background-color: #31e685;
+    background-color: #5DFD3F;
 }
 
 .contact h2 {
@@ -538,11 +538,11 @@ header {
 }
 
 .contact .gfx-contact-text {
-    font-size: 4rem;
+    font-size: 3.9rem;
 }
 
 .contact .gfx-contact-link {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
 }
 
 .contact a:link {
@@ -555,8 +555,11 @@ header {
 
 .contact-form {
     position: absolute;
-    top: 8rem;
-    width: 52.2rem;
+    top: 4.2rem;
+    right: 6.5rem;
+    width: 45rem;
     height: 52.2rem;
     background-color: #1B804A;
+    border: 1.1rem solid #5DFD3F;
+    border-radius: 24px;
 }
