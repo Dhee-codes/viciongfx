@@ -15,3 +15,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Fixture";
+    src: url("../assets/fonts/Fixture\ Bold/Fixture-CondensedRegular.woff2") format("woff2"),
+         url("../assets/fonts/Fixture\ Bold/Fixture-CondensedRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

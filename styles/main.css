@@ -502,32 +502,61 @@ header {
 }
 
 .contact > div {
+    position: relative;
     display: flex;
+    padding-bottom: 5rem;
 }
 
 .contact-details {
-    width: 70%;
+    width: 80%;
     background-color: #Ffffff;
+    padding: 10rem 40rem 0 6rem;
 }
 
-.contact-form {
-    width: 30%;
-    height: 40rem;
+.contact-details > div > div {
+    margin-bottom: 2rem;
+}
+
+.contact > div > div:nth-child(2) {
+    width: 20%;
     background-color: #31e685;
 }
 
 .contact h2 {
-    font-size: 5.2rem;
+    font-size: 5.6rem;
+    line-height: 1.2;
+}
+
+.contact-para {
+    font-size: 2.4rem;
+    font-family: "Fixture", sans-serif;
 }
 
 .contact .gfx-contact-text, .contact .gfx-contact-link {
     font-family: "Morgant", Arial, sans-serif;
+    line-height: 1.4;
 }
 
 .contact .gfx-contact-text {
-    font-size: 4.1rem;
+    font-size: 4rem;
 }
 
 .contact .gfx-contact-link {
-    font-size: 2.7rem;
+    font-size: 2.6rem;
+}
+
+.contact a:link {
+    background: linear-gradient(to right, #1B804A, #31e685);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.contact-form {
+    position: absolute;
+    top: 8rem;
+    width: 52.2rem;
+    height: 52.2rem;
+    background-color: #1B804A;
 }
