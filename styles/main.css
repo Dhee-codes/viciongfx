@@ -519,7 +519,7 @@ header {
 
 .contact > div > div:nth-child(2) {
     width: 20%;
-    background-color: #5DFD3F;
+    background-image: url('../assets/images/aesthetic-images/background-aesthetics/gfx-contact-bg.png');
 }
 
 .contact h2 {
@@ -542,7 +542,7 @@ header {
 }
 
 .contact .gfx-contact-link {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
 }
 
 .contact a:link {
@@ -557,18 +557,18 @@ header {
     position: absolute;
     top: 4.2rem;
     right: 6.5rem;
-    width: 54rem;
-    height: 52.2rem;
+    width: 52rem;
     color: #Ffffff;
-    background-color: #1B804A;
-    border: 1.1rem solid #5DFD3F;
+    border: 1.1rem solid transparent;
+    background: linear-gradient(145deg, #5DFD3F, #31e685) border-box;
     border-radius: 24px;
     text-align: center;
-    padding-top: 3rem;
 }
 
 .contact-form > div {
-    padding: 0 3.2rem;
+    background-color: #1B804A;
+    padding: 3rem 3.2rem;
+    border-radius: 12px;
 }
 
 .contact-form h3 {
@@ -581,15 +581,13 @@ header {
 .contact-form p {
     width: 31rem;
     font-size: 0.7rem;
+    padding-bottom: 2.8rem;
     margin: auto;
-}
-
-.contact-form > div > div {
-    margin-bottom: 3rem;
 }
 
 label{
     text-align: left;
+    margin-bottom: 2px;
 }
 
 label, select, input {
@@ -600,11 +598,19 @@ label, select, input {
 select, input {
     height: 5rem;
     border-radius: 6px;
+    margin-bottom: 1.5rem;
 }
 
 select, input, .form-submit {
     border: none;
-    margin-bottom: 1.5rem;
+}
+
+.form-submit-box {
+    height: 4rem;
+    border: 1.1rem solid transparent;
+    background: linear-gradient(90deg, #5DFD3F, #31e685) border-box;
+    border-radius: 50px;
+    padding: 1px;
 }
 
 .form-submit {
@@ -613,7 +619,7 @@ select, input, .form-submit {
     border-radius: 50px;
 }
 
-select, .form-submit {
+select {
     width: 100%;
 }
 
