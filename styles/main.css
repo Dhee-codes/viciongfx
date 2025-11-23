@@ -557,9 +557,71 @@ header {
     position: absolute;
     top: 4.2rem;
     right: 6.5rem;
-    width: 45rem;
+    width: 54rem;
     height: 52.2rem;
+    color: #Ffffff;
     background-color: #1B804A;
     border: 1.1rem solid #5DFD3F;
     border-radius: 24px;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.contact-form > div {
+    padding: 0 3.2rem;
+}
+
+.contact-form h3 {
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 40px;
+    margin-bottom: 1rem;
+}
+
+.contact-form p {
+    width: 31rem;
+    font-size: 0.7rem;
+    margin: auto;
+}
+
+.contact-form > div > div {
+    margin-bottom: 3rem;
+}
+
+label{
+    text-align: left;
+}
+
+label, select, input {
+    display: block;
+    font-size: 1.3rem;
+}
+
+select, input {
+    height: 5rem;
+    border-radius: 6px;
+}
+
+select, input, .form-submit {
+    border: none;
+    margin-bottom: 1.5rem;
+}
+
+.form-submit {
+    color: #Ffffff;
+    height: 4rem;
+    border-radius: 50px;
+}
+
+select, .form-submit {
+    width: 100%;
+}
+
+input {
+    width: 95%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
