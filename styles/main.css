@@ -422,19 +422,19 @@ p {
     font-family: "Morgant", Arial, sans-serif;
 }
 
-.portfolio > div {
+.portfolio-inner {
     padding: 14rem 1.2rem 10.6rem;
 }
 
-.portfolio .gfx-aesservices {
+.portfolio-service {
     margin-bottom: 5rem;
 }
 
-.portfolio .gfx-aesservices > div {
+.portfolio-service > div {
     display: inline-block;
 }
 
-.gfx-oval {
+.obround {
     height: 9.2rem;
     border-radius: 9999rem;
     display: flex;
@@ -442,66 +442,66 @@ p {
     transform: translateY(1.5rem);
 }
 
-.gfx-circle {
+.circle {
     background-color: #5DFD3F;
     width: 7.7rem;
     height: 7.7rem;
     border-radius: 50%;
 }
 
-.portfolio .gfx-service1 {
+.service1 {
     color: #F5F5F5;
 }
 
-.gfx-oval1 {
+.obround1 {
     width: 22.2rem;
     background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage1.png');
     justify-content: right;
 }
 
-.gfx-circle1 {
+.circle1 {
     transform: translate(-0.6rem);
 }
 
-.portfolio .gfx-service2 {
+.service2 {
     color: #1B804A;
 }
 
-.gfx-oval2 {
+.obround2 {
     width: 26.5rem;
     background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage2.png');
     justify-content: left;
 }
 
-.gfx-circle2 {
+.circle2 {
     transform: translate(0.6rem);
 }
 
-.portfolio .gfx-service3 {
+.service3 {
     color: #000000;
 }
 
-.gfx-oval3 {
+.obround3 {
     width: 50.7rem;
     background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage3.png');
     justify-content: right;
 }
 
-.gfx-circle3 {
+.circle3 {
     transform: translate(-0.6rem);
 }
 
-.portfolio .gfx-service4 {
+.service4 {
     color: #F5F5F5;
 }
 
-.gfx-oval4 {
+.obround4 {
     width: 60.4rem;
     background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage4.png');
     justify-content: left;
 }
 
-.gfx-circle4 {
+.circle4 {
     transform: translate(0.6rem);
 }
 
