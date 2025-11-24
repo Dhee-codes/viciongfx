@@ -78,10 +78,23 @@ p {
     font-weight: 300;
 }
 
+.nav-link:hover {
+    color: var(--color-primary);
+}
+
 .bi {
     width: 2.5rem;
     height: 2.5rem;
     fill: var(--color-primary);
+    transition: all ease-in-out 0.2s;
+}
+
+.bi:hover {
+    transform: scale(1.2);
+}
+
+.bi:active {
+    transform: scale(1);
 }
 
 .home {
@@ -134,11 +147,21 @@ p {
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    transition: all 0.3s;
+    z-index: 1;
+    transition: all ease-in-out 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    transform: scale(0.9);
+    opacity: 0.6;
 }
 
 .btn-primary {
-    color: #000000;
+    color: var(--color-dark);
     background-color: var(--color-primary);
 }
 
@@ -631,6 +654,7 @@ select, input, .submit-btn {
     box-shadow: 0px 3px 5px #135a34,
                 0px 4px 14.3px #135a34;
     margin: 2.4rem 0 0;
+    transition: all ease-in-out 0.2s;
 }
 
 .submit-btn {
@@ -646,6 +670,10 @@ select, input, .submit-btn {
     align-items: center;
     gap: 1rem;
     padding: 6px;
+}
+
+.submit-btn-container:active {
+    transform: scale(0.95);
 }
 
 select {
