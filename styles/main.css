@@ -38,7 +38,7 @@ p {
     color: var(--color-primary);
 }
 
-header {
+.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -318,7 +318,7 @@ header {
     background-color: #000000;
 }
 
-.gfx-marque {
+.services-title-strip {
     width: 145%;
     height: 11rem;
     color: #ffffff;
@@ -331,7 +331,7 @@ header {
     transform: translate(-10.5%);
 }
 
-.gfx-bg-image {
+.agency-background-image {
     width: 100%;
     height: auto;
 }
@@ -342,7 +342,7 @@ header {
     font-family: "Aeonik TRIAL", sans-serif;
 }
 
-.testimonials > div {
+.testimonials-inner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -351,13 +351,13 @@ header {
     padding-bottom: 4rem;
 }
 
-.testimonials-intro {
+.testimonials-header {
     font-size: 4.2rem;
     font-weight: 200;
     letter-spacing: -1px;
 }
 
-.testimonial-cards {
+.testimonials-grid {
     width: 102rem;
     height: 104rem;
     border-radius: 0.6rem;
@@ -373,7 +373,7 @@ header {
     justify-content: space-between;
 }
 
-.testimonial-cards .card {
+.testimonial-card {
     color: #000000;
     background-color: #fff;
     display: flex;
@@ -386,7 +386,7 @@ header {
     margin-bottom: 2.2rem;
 }
 
-.para {
+.testimonial-text {
     font-size: 1.9rem;
     font-weight: 100;
     line-height: 1.2;
