@@ -236,7 +236,7 @@ p {
 .about {
     position: relative;
     color: #061602;
-    background-color: #ffffff;
+    background-color: var(--color-light);
 }
 
 .about-visuals {
@@ -245,7 +245,7 @@ p {
 
 .gfx {
     width: 100%;
-    color: #ffffff;
+    color: var(--color-light);
     background-color: transparent;
     text-shadow:
         -1px -1px 0 #061602,
@@ -315,13 +315,13 @@ p {
 
 .services {
     overflow: hidden;
-    background-color: #000000;
+    background-color: var(--color-dark);
 }
 
 .services-title-strip {
     width: 145%;
     height: 11rem;
-    color: #ffffff;
+    color: var(--color-light);
     font-size: 3.9rem;
     font-weight: 100;
     font-family: "Morgant", Arial, sans-serif;
@@ -337,7 +337,7 @@ p {
 }
 
 .testimonials {
-    color: #ffffff;
+    color: var(--color-light);
     background: linear-gradient(#000000, #061602);
     font-family: "Aeonik TRIAL", sans-serif;
 }
@@ -347,6 +347,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding-top: 12rem;
     padding-bottom: 4rem;
 }
@@ -374,8 +375,8 @@ p {
 }
 
 .testimonial-card {
-    color: #000000;
-    background-color: #fff;
+    color: var(--color-dark);
+    background-color: var(--color-light);
     display: flex;
     flex-direction: column;
     border-radius: 0.6rem;
@@ -414,6 +415,22 @@ p {
 .profile .date {
     font-size: 1.2rem;
     font-weight: lighter;
+}
+ 
+.decor-image {
+    position: absolute;
+}
+
+.image-6 {
+    top: -13rem;
+    right: 3rem;
+    width: 25rem;
+    height: 48rem;
+}
+
+.image-7 {
+    top: 69rem;
+    left: 1rem;
 }
 
 .portfolio {
@@ -455,7 +472,7 @@ p {
 
 .obround1 {
     width: 22.2rem;
-    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage1.png');
+    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image1.png');
     justify-content: right;
 }
 
@@ -464,12 +481,12 @@ p {
 }
 
 .service2 {
-    color: #1B804A;
+    color: var(--color-secondary);
 }
 
 .obround2 {
     width: 26.5rem;
-    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage2.png');
+    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image2.png');
     justify-content: left;
 }
 
@@ -478,12 +495,12 @@ p {
 }
 
 .service3 {
-    color: #000000;
+    color: var(--color-dark);
 }
 
 .obround3 {
     width: 50.7rem;
-    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage3.png');
+    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image3.png');
     justify-content: right;
 }
 
@@ -497,7 +514,7 @@ p {
 
 .obround4 {
     width: 60.4rem;
-    background-image: url('../assets/images/aesthetic-images/background-aesthetics/aes-bgimage4.png');
+    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image4.png');
     justify-content: left;
 }
 
@@ -513,7 +530,7 @@ p {
 .contact-info {
     width: 80%;
     height: 72rem;
-    background-color: #Ffffff;
+    background-color: var(--color-light);
     padding: 10rem 40rem 0 6rem;
 }
 
@@ -523,7 +540,7 @@ p {
 
 .contact > div > div:nth-child(2) {
     width: 20%;
-    background-image: url('../assets/images/aesthetic-images/background-aesthetics/gfx-contact-bg.png');
+    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image5.png');
 }
 
 .contact h2 {
@@ -559,7 +576,7 @@ p {
     top: 4.2rem;
     right: 6.5rem;
     width: 52rem;
-    color: #Ffffff;
+    color: var(--color-light);
     border: 1.1rem solid transparent;
     background: linear-gradient(145deg, #5DFD3F, #31e685) border-box;
     border-radius: 24px;
@@ -617,9 +634,9 @@ select, input, .submit-btn {
 }
 
 .submit-btn {
-    color: #Ffffff;
+    color: var(--color-light);
     border-radius: 50px;
-    background-color: #1B804A;
+    background-color: var(--color-secondary);
     width: 100%;
     height: 100%;
     font-size: 1.4rem;
@@ -635,7 +652,7 @@ select {
     width: 100%;
     padding: 0 6rem 0 0.8rem;
     appearance: none;
-    background-color: #ffffff;
+    background-color: var(--color-light);
 }
 
 .select-container {
@@ -661,5 +678,5 @@ input {
 
 footer {
     height: 50rem;
-    background-color: #000000;
+    background-color: var(--color-dark);
 }
