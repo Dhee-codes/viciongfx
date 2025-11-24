@@ -472,7 +472,7 @@ p {
 
 .obround1 {
     width: 22.2rem;
-    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image1.png');
+    background-image: url('../assets/images/decorative-images/background-decorator/bg-decor-image1.png');
     justify-content: right;
 }
 
@@ -486,7 +486,7 @@ p {
 
 .obround2 {
     width: 26.5rem;
-    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image2.png');
+    background-image: url('../assets/images/decorative-images/background-decorator/bg-decor-image2.png');
     justify-content: left;
 }
 
@@ -500,7 +500,7 @@ p {
 
 .obround3 {
     width: 50.7rem;
-    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image3.png');
+    background-image: url('../assets/images/decorative-images/background-decorator/bg-decor-image3.png');
     justify-content: right;
 }
 
@@ -514,7 +514,7 @@ p {
 
 .obround4 {
     width: 60.4rem;
-    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image4.png');
+    background-image: url('../assets/images/decorative-images/background-decorator/bg-decor-image4.png');
     justify-content: left;
 }
 
@@ -540,7 +540,7 @@ p {
 
 .contact > div > div:nth-child(2) {
     width: 20%;
-    background-image: url('../assets/images/decorator-images/background-decorator/bg-decor-image5.png');
+    background-image: url('../assets/images/decorative-images/background-decorator/bg-decor-image5.png');
 }
 
 .contact h2 {
