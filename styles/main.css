@@ -239,7 +239,7 @@ header {
     background-color: #ffffff;
 }
 
-.gfx-aes {
+.about-visuals {
     overflow: hidden;
 }
 
@@ -273,42 +273,42 @@ header {
     margin-bottom: 15rem;
 }
 
-.about-heading {
+.about-header {
     z-index: 2;
 }
 
-.about-para {
+.about-body {
     line-height: 1.6;
     padding-top: 4rem;
     margin-left: 5.2rem;
 }
 
-.about .book-a-call {
+.btn-secondary {
+    color: var(--color-light);
     background-color: var(--color-secondary);
 }
 
-.about .book-a-call {
-    color: #ffffff;
+.about-cta {
     margin-top: 2.5rem;
 }
 
-.about .aesimage {
+.decor-image {
     position: absolute;
 }
 
-.aesimage3 {
+.image-3 {
     width: 18.4rem;
     height: 42rem;
     top: 5rem;
     left: -7rem;
 }
 
-.aesimage4 {
+.image-4 {
     top: 9rem;
     left: -1rem;
 }
 
-.aesimage5 {
+.image-5 {
     top: 20rem;
     left: 0rem;
 }
