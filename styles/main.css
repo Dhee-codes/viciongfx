@@ -134,6 +134,22 @@ p {
     max-width: 60ch;
     text-align: center;
     margin-bottom: 3rem;
+
+    /* LIKELY CHANGE */
+    opacity: 0;
+    animation: text-reveal 2s steps(40, end) forwards;
+    animation-delay: 1.2s;
+    animation-name: text-reveal, fade-in;
+    animation-duration: 2s, 0.5s;
+    animation-delay: 1.2s 3.2s;
+
+    /* ---------- */
+}
+
+.home-cta {
+    opacity: 0;
+    animation: fade-in 0.5s ease-out forwards;
+    animation-delay: 3.2s;
 }
 
 .btn {
@@ -163,6 +179,38 @@ p {
 .btn-primary {
     color: var(--color-dark);
     background-color: var(--color-primary);
+}
+
+@keyframes fade-in-up {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 2s ease;
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes text-reveal {
+    from {
+        clip-path: inset(0 100% 0 0);
+        transition: opacity 2s ease;
+    }
+    to {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .decor-btn, .decor-dot, .decor-image {
