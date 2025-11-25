@@ -127,6 +127,9 @@ p {
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1rem;
+    opacity: 0;
+    animation: fade-in-up 1s ease-out forwards;
+    animation-delay: 1s;
 }
 
 .home-description {
