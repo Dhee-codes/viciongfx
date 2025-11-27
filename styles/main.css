@@ -97,9 +97,6 @@ p {
     transform: scale(1);
 }
 
-.home {
-}
-
 .home-inner {
     position: relative;
     height: 100vh;
@@ -304,14 +301,16 @@ p {
     right: 14.3rem;
 }
 
-.about {
+.about-inner {
     position: relative;
     color: #061602;
     background-color: var(--color-light);
+    z-index: 0;
 }
 
 .about-visuals {
     overflow: hidden;
+    z-index: 0;
 }
 
 .gfx {
@@ -342,6 +341,7 @@ p {
     margin-left: 12rem;
     margin-top: -12px;
     margin-bottom: 15rem;
+    z-index: 2;
 }
 
 .about-header {
@@ -361,6 +361,10 @@ p {
 
 .about-cta {
     margin-top: 2.5rem;
+}
+
+.about-decor {
+    z-index: 1;
 }
 
 .decor-image {
@@ -418,9 +422,15 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     position: relative;
     padding-top: 12rem;
     padding-bottom: 4rem;
+    z-index: 0;
+}
+
+.testimonials-content {
+    z-index: 1;
 }
 
 .testimonials-header {
@@ -486,6 +496,10 @@ p {
 .profile .date {
     font-size: 1.2rem;
     font-weight: lighter;
+}
+
+.testimonials-decor {
+    z-index: 0;
 }
  
 .decor-image {

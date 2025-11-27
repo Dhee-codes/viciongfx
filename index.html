@@ -70,14 +70,14 @@
                     <div class="decor-dot dot-4"></div>
                     <div class="decor-dot dot-5"></div>
                     <div class="decor-dot dot-6"></div>
-                    <img src="assets/images/decorative-images/decor-image1.png" alt="" class="decor-image image-1" aria-hidden="true">
-                    <img src="assets/images/decorative-images/decor-image2.png" alt="" class="decor-image image-2" aria-hidden="true">
+                    <img src="assets/images/decorative-images/decor-image1.png" alt="" class="decor-image image-1">
+                    <img src="assets/images/decorative-images/decor-image2.png" alt="" class="decor-image image-2">
                 </div>
             </div>
         </section>
 
         <section id="about" class="about">
-            <div>
+            <div class="about-inner">
                 <aside class="about-visuals">
                     <div class="gfx">
                         VICIONGFX
@@ -92,9 +92,11 @@
                         <button class="btn btn-secondary about-cta">Book a Call</button>
                     </div>
                 </div>
-                <img src="assets/images/decorative-images/decor-image3.png" alt="" class="decor-image image-3" aria-hidden="true">
-                <img src="assets/images/decorative-images/decor-image4.png" alt="" class="decor-image image-4" aria-hidden="true">
-                <img src="assets/images/decorative-images/decor-image5.png" alt="" class="decor-image image-5" aria-hidden="true">
+                <div class="about-decor" aria-hidden="true">
+                    <img src="assets/images/decorative-images/decor-image3.png" alt="" class="decor-image image-3" aria-hidden="true">
+                    <img src="assets/images/decorative-images/decor-image4.png" alt="" class="decor-image image-4" aria-hidden="true">
+                    <img src="assets/images/decorative-images/decor-image5.png" alt="" class="decor-image image-5" aria-hidden="true">
+                </div>
             </div>
         </section>
 
@@ -114,119 +116,123 @@
 
         <section id="testimonials" class="testimonials">
             <div class="testimonials-inner">
-                <header class="testimonials-header">
-                    Here's what our <span class="highlight">satisfied clients</span> are saying...
-                </header>
-                <div class="testimonials-grid">
-                    <div class="cards-column">
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi, excepturi voluptatem harum exercitationem doloribus a quas illum alias ipsum voluptates expedita eaque adipisci numquam tenetur amet iste modi.
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
+                <div class="testimonials-content">    
+                    <header class="testimonials-header">
+                        Here's what our <span class="highlight">satisfied clients</span> are saying...
+                    </header>
+                    <div class="testimonials-grid">
+                        <div class="cards-column">
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi, excepturi voluptatem harum exercitationem doloribus a quas illum alias ipsum voluptates expedita eaque adipisci numquam tenetur amet iste modi.
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="cards-column">
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam rem recusandae nisi! Modi repudiandae, quaerat laboriosam fugiat qui omnis est at recusandae rem esse aliquam nostrum?
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui veritatis nesciunt ullam? Quae temporibus velit autem rem? Magni suscipit aliquid corporis incidunt quam. Nihil architecto cum eum at?
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="cards-column">
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolore voluptatibus facilis doloribus quas perspiciatis veritatis reprehenderit adipisci quod aspernatur amet exercitationem dignissimos consequuntur provident maiores, vitae hic distinctio molestiae illum impedit deleniti incidunt est. Nihil soluta reprehenderit similique repellendus dicta qui non?
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                            <article class="testimonial-card">
+                                <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
+                                <p class="testimonial-text">
+                                    Austin<br>
+                                    Awesome very professional and informed
+                                </p>
+                                <div class="profile">
+                                    <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
+                                    <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
+                                </div>
+                            </article>
+                        </div>
                     </div>
-                    <div class="cards-column">
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi veniam rem recusandae nisi! Modi repudiandae, quaerat laboriosam fugiat qui omnis est at recusandae rem esse aliquam nostrum?
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui veritatis nesciunt ullam? Quae temporibus velit autem rem? Magni suscipit aliquid corporis incidunt quam. Nihil architecto cum eum at?
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                    </div>
-                    <div class="cards-column">
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolore voluptatibus facilis doloribus quas perspiciatis veritatis reprehenderit adipisci quod aspernatur amet exercitationem dignissimos consequuntur provident maiores, vitae hic distinctio molestiae illum impedit deleniti incidunt est. Nihil soluta reprehenderit similique repellendus dicta qui non?
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                        <article class="testimonial-card">
-                            <div class="rating"><img src="assets/images/client/rating.png" alt="Rating stars"></div>
-                            <p class="testimonial-text">
-                                Austin<br>
-                                Awesome very professional and informed
-                            </p>
-                            <div class="profile">
-                                <div class="pic"><img src="assets/images/client/client-placeholder-image.webp" alt="Client's image" class="client-image"></div>
-                                <div class="details"><span class="name">Tom Chandler</span><br><span class="date">24 march 2025</span></div>
-                            </div>
-                        </article>
-                    </div>
+                    <button class="btn btn-primary testimonials-cta">Book a Call</button>
                 </div>
-                <button class="btn btn-primary testimonials-cta">Book a Call</button>
-                <img src="assets/images/decorative-images/decor-image6.png" alt="" class="decor-image image-6" aria-hidden="true">
-                <img src="assets/images/decorative-images/decor-image7.png" alt="" class="decor-image image-7" aria-hidden="true">
+                <div class="testimonials-decor">
+                    <img src="assets/images/decorative-images/decor-image6.png" alt="" class="decor-image image-6" aria-hidden="true">
+                    <img src="assets/images/decorative-images/decor-image7.png" alt="" class="decor-image image-7" aria-hidden="true">
+                </div>
             </div>
         </section>
 
