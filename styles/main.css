@@ -98,6 +98,9 @@ p {
 }
 
 .home {
+}
+
+.home-inner {
     position: relative;
     height: 100vh;
     color: var(--color-light);
@@ -106,24 +109,22 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 5rem 0 0;
     overflow: hidden;
+    z-index: 0;
 }
 
 .home-content {
-    width: 50%;
-    max-width: 700px;
-    text-align: center;
-}
-
-.home-hero-text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1;
 }
 
 .home-title {
-    font-size: 5.4rem;
+    width: 13ch;
+    font-size: clamp(2rem, calc(3vw + 1rem), 5.4rem);
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -137,22 +138,15 @@ p {
     max-width: 60ch;
     text-align: center;
     margin-bottom: 3rem;
-
-    /* LIKELY CHANGE */
     opacity: 0;
-    animation: text-reveal 2s steps(40, end) forwards;
-    animation-delay: 1.2s;
-    animation-name: text-reveal, fade-in;
-    animation-duration: 2s, 0.5s;
-    animation-delay: 1.2s 3.2s;
-
-    /* ---------- */
+    animation: fade-in-up 1s ease-out forwards;
+    animation-delay: 1.8s;
 }
 
 .home-cta {
     opacity: 0;
     animation: fade-in 0.5s ease-out forwards;
-    animation-delay: 3.2s;
+    animation-delay: 3s;
 }
 
 .btn {
@@ -166,7 +160,6 @@ p {
     font-size: 1.4rem;
     font-weight: 600;
     cursor: pointer;
-    z-index: 1;
     transition: all ease-in-out 0.2s;
 }
 
@@ -214,6 +207,10 @@ p {
     to {
         opacity: 1;
     }
+}
+
+.home-decor {
+    z-index: 0;
 }
 
 .decor-btn, .decor-dot, .decor-image {
