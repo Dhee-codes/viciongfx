@@ -9,6 +9,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -24,10 +25,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Morgant", Arial, sans-serif;
-}
-
-h2 {
-    font-size: 7.4rem;
 }
 
 p {
@@ -107,7 +104,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5rem 0 0;
+    padding: 5rem 0.46rem 0;
     overflow: hidden;
     z-index: 0;
 }
@@ -120,8 +117,8 @@ p {
 }
 
 .home-title {
-    width: 13ch;
-    font-size: clamp(2rem, calc(3vw + 1rem), 5.4rem);
+    max-width: 13ch;
+    font-size: clamp(2.8rem, calc(3vw + 1rem), 5.4rem);
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -305,6 +302,7 @@ p {
     position: relative;
     color: #061602;
     background-color: var(--color-light);
+    overflow: hidden;
     z-index: 0;
 }
 
@@ -314,7 +312,6 @@ p {
 }
 
 .gfx {
-    width: 100%;
     color: var(--color-light);
     background-color: transparent;
     text-shadow:
@@ -322,11 +319,12 @@ p {
         1px -1px 0 #061602,
         -1px  1px 0 #061602,
         1px  1px 0 #061602;
-    font-size: 23.9rem;
+    font-size: clamp(9.4rem, calc(16.4vw + 1rem), 23.9rem);;
     font-weight: 400;
     line-height: 0.75;
     letter-spacing: 2px;
-    padding-top: 32px;
+    white-space: nowrap;
+    padding-top: 0.134em;
     transform: translate(-19.4%);
 }
 
@@ -336,22 +334,22 @@ p {
 
 .about-content {
     display: flex;
-    gap: 4.4rem;
+    gap: 9.4rem;
     padding-right: 1.4rem;
-    margin-left: 12rem;
+    margin-left: 8.8vw;
     margin-top: -12px;
     margin-bottom: 15rem;
+    position: relative;
     z-index: 2;
 }
 
-.about-header {
-    z-index: 2;
+.about-header h2 {
+    font-size: clamp(4.8rem, calc(5vw + 1rem), 7.4rem);
 }
 
 .about-body {
     line-height: 1.6;
     padding-top: 4rem;
-    margin-left: 5.2rem;
 }
 
 .btn-secondary {
@@ -364,7 +362,7 @@ p {
 }
 
 .about-decor {
-    z-index: 1;
+    z-index: 0;
 }
 
 .decor-image {
@@ -415,6 +413,7 @@ p {
     color: var(--color-light);
     background: linear-gradient(#000000, #061602);
     font-family: "Aeonik TRIAL", sans-serif;
+    overflow: hidden;
 }
 
 .testimonials-inner {
@@ -522,6 +521,7 @@ p {
     background: linear-gradient(135deg, #31e685 0, #31e685 30%, #00652f 100%);
     font-size: 6.2rem;
     font-family: "Morgant", Arial, sans-serif;
+    overflow: hidden;
 }
 
 .portfolio-inner {
@@ -610,6 +610,7 @@ p {
 .contact-inner {
     position: relative;
     display: flex;
+    overflow: hidden;
 }
 
 .contact-info {
@@ -769,4 +770,20 @@ input {
 footer {
     height: 50rem;
     background-color: var(--color-dark);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-content {
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        margin: -12px auto 4rem;
+    }
 }
