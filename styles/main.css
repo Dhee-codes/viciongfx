@@ -112,13 +112,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 0.12rem 0;
+    padding: 5rem 0;
     z-index: 1;
 }
 
 .home-title {
     max-width: 13ch;
-    font-size: clamp(2.9rem, calc(3.2vw + 1rem), 5.4rem);
+    font-size: clamp(2.8rem, calc(3.4vw + 1rem), 5.4rem);
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -772,9 +772,41 @@ footer {
     background-color: var(--color-dark);
 }
 
+@media screen and (max-width: 480px) {
+    .btn {
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .header {
         display: none;
+    }
+
+    .home-inner {
+        padding: 0 4vw;
+    }
+
+    .home-title {
+        font-size: calc(4.4vw + 1rem);
+    }
+
+    .home-description {
+        font-size: 1.2rem;
+    }
+
+    .btn-2 {
+        top: 18rem;
+        right: 3rem;
+    }
+
+    .btn-3 {
+        left: -50rem;
+    }
+
+    .btn-4 {
+        top: 60rem;
+        left: 20rem;
     }
 }
 
