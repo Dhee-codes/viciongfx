@@ -118,7 +118,7 @@ p {
 
 .home-title {
     max-width: 13ch;
-    font-size: clamp(3rem, calc(3.6vw + 1rem), 5.4rem);
+    font-size: clamp(2.9rem, calc(3.2vw + 1rem), 5.4rem);
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1rem;
