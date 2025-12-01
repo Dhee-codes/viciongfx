@@ -96,7 +96,7 @@ p {
 
 .home-inner {
     position: relative;
-    height: 100vh;
+    height: 100dvh;
     color: var(--color-light);
     background: linear-gradient(#000000, #061602);
     display: flex;
@@ -324,7 +324,7 @@ p {
     line-height: 0.75;
     letter-spacing: 2px;
     white-space: nowrap;
-    padding-top: 0.134em;
+    padding-top: max(0.134em, 1.2vh);
     transform: translate(-19.4%);
 }
 
