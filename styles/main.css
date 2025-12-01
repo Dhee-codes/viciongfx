@@ -104,7 +104,6 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 5rem 0.46rem 0;
     overflow: hidden;
     z-index: 0;
 }
@@ -113,12 +112,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 5rem 0.15rem 0;
     z-index: 1;
 }
 
 .home-title {
     max-width: 13ch;
-    font-size: clamp(2.8rem, calc(3vw + 1rem), 5.4rem);
+    font-size: clamp(3rem, calc(3.8vw + 1rem), 5.4rem);
     font-weight: 400;
     line-height: 1.1;
     margin-bottom: 1rem;
@@ -395,12 +395,13 @@ p {
     width: 145%;
     height: 11rem;
     color: var(--color-light);
-    font-size: 3.9rem;
+    font-size: clamp(1.9rem, calc(1.8vw + 1rem), 3.9rem);
     font-weight: 100;
     font-family: "Morgant", Arial, sans-serif;
+    white-space: nowrap;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    gap: 9rem;
     transform: translate(-10.5%);
 }
 
