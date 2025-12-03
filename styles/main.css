@@ -433,26 +433,27 @@ p {
 }
 
 .testimonials-header {
-    font-size: 4.2rem;
+    font-size: clamp(1.8rem, calc(3vw + 1rem), 4.2rem);
+    /* font-size: 4.2rem; */
     font-weight: 200;
     letter-spacing: -1px;
 }
 
 .testimonials-grid {
-    width: 95%;
+    width: 100%;
     min-height: 104rem;
     border-radius: 0.6rem;
     display: grid;
-    grid-template-columns: repeat(3, minmax(300px, 340px));
+    grid-template-columns: repeat(3, 330px);
     gap: 2.6rem;
     margin: 8rem auto 5rem;
-    overflow-x: scroll;
 }
 
 .cards-column {
     display: flex;
     flex-direction: column;
-    justify-content: space-between ;
+    justify-content: space-between;
+    gap: 2.4rem;
 }
 
 .testimonial-card {
@@ -460,6 +461,7 @@ p {
     background-color: var(--color-light);
     display: flex;
     flex-direction: column;
+    flex: 1;
     text-align: left;
     border-radius: 0.6rem;
     padding: 2rem;
@@ -509,7 +511,7 @@ p {
 
 .image-6 {
     top: -13rem;
-    right: 3rem;
+    right: -3rem;
     width: 25rem;
     height: 48rem;
 }
@@ -521,7 +523,7 @@ p {
 
 .portfolio {
     background: linear-gradient(135deg, #31e685 0, #31e685 30%, #00652f 100%);
-    font-size: 6.2rem;
+    font-size: calc(3.8vw + 1rem);
     font-family: "Morgant", Arial, sans-serif;
     overflow: hidden;
 }
@@ -531,16 +533,17 @@ p {
 }
 
 .portfolio-service {
-    margin-bottom: 5rem;
-}
-
-.portfolio-service > div {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    word-spacing: 1vw;
+    margin-bottom: 3.7%;
 }
 
 .obround {
-    height: 9.2rem;
-    border-radius: 9999rem;
+    height: min(9.2rem, 7.2vw);
+    border-radius: 99rem;
     display: flex;
     align-items: center;
     transform: translateY(1.5rem);
@@ -548,8 +551,8 @@ p {
 
 .circle {
     background-color: #5DFD3F;
-    width: 7.7rem;
-    height: 7.7rem;
+    width: min(7.7rem, 5.5vw);
+    height: min(7.7rem, 5.5vw);
     border-radius: 50%;
 }
 
@@ -812,6 +815,17 @@ footer {
     }
 }
 
+@media screen and (max-width: 870px) {
+    .portfolio-service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio-service > div {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .about-content {
         max-width: 100%;
@@ -822,7 +836,69 @@ footer {
         margin: -12px auto 4rem;
     }
 
-    .testimonials-grid {
-        /* grid-template-columns: repeat(2, minmax(300px, 340px)); */
+    /* .testimonials-grid {
+        min-height: unset;
+        grid-template-rows: repeat(3, 400px);
+        overflow: auto;
     }
+
+    .cards-column {
+        display: inline;
+    } */
+
+    .portfolio {
+        font-size: calc(2.6vw + 1rem);
+    }
+    
+    .obround {
+        height: min(6.2rem, 3.2vw);
+    }
+
+    .circle {
+        width: min(4.4rem, 2.5vw);
+        height: min(4.4rem, 2.5vw);
+    }
+
+    .obround1 {
+        width: 10rem;
+    }
+
+    .obround2 {
+        width: 16.5rem;
+    }
+
+    .obround3 {
+        width: 34.7rem;
+    }
+
+    .obround4 {
+        width: 38.4rem;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .obround {
+        height: min(8.2rem, 5.2vw);
+    }
+
+    .circle {
+        width: min(6.6rem, 3.8vw);
+        height: min(6.6rem, 3.8vw);
+    }
+
+    .obround1 {
+        width: 16rem;
+    }
+
+    .obround2 {
+        width: 22.5rem;
+    }
+
+    .obround3 {
+        width: 40.7rem;
+    }
+
+    .obround4 {
+        width: 44.4rem;
+    }   
 }
